@@ -22,6 +22,8 @@ rootProject.allprojects {
 apply plugin: 'com.android.library'
 
 android {    
+    namespace = "com.google_mlkit_commons"
+
     compileSdkVersion 29
 
     compileOptions {
